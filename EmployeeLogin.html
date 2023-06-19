@@ -1,66 +1,29 @@
 <DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="global.css">
 	<style>
 		body{
-			background-image:url("https://img.freepik.com/free-vector/flat-hand-drawn-people-celebrating-goal-achievement_23-2148843893.jpg?w=996&t=st=1669463194~exp=1669463794~hmac=56d075a6ab6d5bd78ccd80da985aed2cc25bd424f57d77c4e22276e336eb9741");
+			background-image:url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701793183-optimized.jpg");
 			background-repeat:no-repeat;
 			background-size:cover;
+
 		}
-		h1{
-			color:lime;margin:10px;
-		}
-		form {
-			width:25%;
-			background:transparent;
 		
-		}
-		input[type="text"],[type="text"],[type ="number"] {
-			width:90%;
-			height:40px;
-			font-size:20px;
-			margin:10px;
-			outline:none;
-			text-align:center;
-			border: none;
-			border-radius: 6px;
-		}
-		input[type="submit"]{
-			width:30%;
-			height:40px;
-			cursor:pointer;
-			font-size:15px;
-			outline:none;
-			margin:10px;
-			border: none;
-			border-radius: 6px;
-			background-color: brown;
-			color: white;
-		}
-		button{
-			width: 10%;
-			height: 40px;
-			background-color: #e25310;
-			color: white;
-			font-size: 15px;
-			margin: 8px 0;
-			border: none;
-			border-radius: 4px;
-			cursor: pointer;
-		}
+		
+		
+
 	</style>
 </head>
 
 <body>
-	<center>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		<h1 style = "color: black" >EMPLOYEE LOGIN</h1>
-		<form action="EmployeeLogin.php" method="post">
-			<input type="text" name="employeeid" placeholder="Enter your ID"/>
-			<input type ="submit" value="submit"/>
+		<h1 style = "color: black; padding-left: 110px;" >EMPLOYEE LOGIN</h1>
+		<form action="EmployeeLogin.php" style="padding-left: 110px;" method="post">
+			<input type="text" name="employeeid" placeholder=" your ID"/>
+			<input type="text" name="employeepassword" placeholder=" password"/>
+			<button type="submit">submit</button>
 		</form>
-		<button type = "button" onclick="location.href='home.html'">Home</button></br>
+		<button onclick="location.href='home.html'" style="margin-left: 120px;">Home</button></br>
 		
-	</center>
 </body>
 </html>
